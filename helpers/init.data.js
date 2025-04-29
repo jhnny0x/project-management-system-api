@@ -29,7 +29,8 @@ const createAdmin = async () => {
             last_name: 'Admin',
             email: 'admin@mail.com',
             password: '123456',
-            is_active: true
+            is_active: true,
+            role_id: '680f98d109b42ae53eefd4fa'
         }
 
         await User.insertOne(admin)
