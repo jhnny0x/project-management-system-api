@@ -7,15 +7,5 @@ module.exports = {
     includeTimestamp: (included = 1) => ({
         created_at: included,
         updated_at: included
-    }),
-    createUserLog: (collection, user_id) => {
-        return action => {
-
-        }
-    },
-    createAuditTrail: (collection, user_id) => {
-        return (action, field) => {
-            
-        }
-    }
+    })
 }
